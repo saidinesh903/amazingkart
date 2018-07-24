@@ -7,6 +7,13 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Manage Product</title>
+<style type="text/css">
+body{
+    background: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background-size: cover;
+   
+}
+</style>
 </head>
 <body>
 	<div class="container">

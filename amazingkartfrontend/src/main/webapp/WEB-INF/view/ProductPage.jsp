@@ -4,7 +4,15 @@
 <head>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Midas Touch Prod-Page</title>
+<title>Amazing kart Prod-Page</title>
+<style type="text/css">
+body{
+    background: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background-size: cover;
+   
+}
+
+</style>
 </head>
 <body>
 	<div class="container">

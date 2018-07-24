@@ -22,7 +22,15 @@
 <script src="<c:url value="/resources/js/CustomJS.js" />"></script>
 
  <script src="resources/js/jquery-3.2.0.js"></script>
-<script src="resources/js/bootstrap.js"></script> 
+<script src="resources/js/bootstrap.js"></script>
+<style type="text/css">
+body{
+    background: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background-size: cover;
+   
+}
+
+</style> 
 </head>
 <body>
 	

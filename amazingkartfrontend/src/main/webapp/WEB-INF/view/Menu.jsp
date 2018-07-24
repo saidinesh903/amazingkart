@@ -29,7 +29,7 @@ border-radius:0px;
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
 				<a href="Home" class="navbar-brand">
-					<img src="<c:url value="/resources/images/MidasTouch.jpg" />" alt="logo" style="max-height: 50px; margin-top: -15px;margin-left: -15px;">
+					<img src="<c:url value="/resources/images/5.jpg" />" alt="logo" style="max-height: 50px; margin-top: -15px;margin-left: -15px;">
 				</a>
 			</div>
 		
