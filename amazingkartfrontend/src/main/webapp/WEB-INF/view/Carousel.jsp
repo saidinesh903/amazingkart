@@ -23,7 +23,7 @@
 					<div class="carousel-inner">
 						<div class="item active">
 							<a href="">
-								<img src="<c:url value="/resources/images/banner01.jpg" />" alt="Image 1" style="width:100%;height:500px;">
+								<img src="<c:url value="/resources/images/logo2.jpg" />" alt="Image 1" style="width:100%;height:500px;">
 							</a>
 
 						</div>
@@ -40,7 +40,7 @@
 						</div>
 						<div class="item">
 							<a href="">
-								<img src="<c:url value="/resources/images/logo2.jpg" />" alt="Image 3" style="width:100%;height:500px;">
+								<img src="<c:url value="/resources/images/banner02.jpg" />" alt="Image 3" style="width:100%;height:500px;">
 							</a>
 						</div>
 						<div class="item">

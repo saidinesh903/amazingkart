@@ -37,7 +37,14 @@
 						<td>${cart.product_name}</td>
 						<td><fmt:formatDate pattern="dd/MM/yyyy" value="${cart.date_added}" /></td>
 						<td>
-								<input type="number" id="quant" value="${cart.quantity}"/>						
+								<!--  <input type="number" id="quantity" value="${cart.quantity}"/>-->
+														<select id="quantity">
+   <option value="None">-- select --</option>
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+</select>
+								
 						<!-- <form class="form-horizontal" action="myCart-quant/${cart.id}" method="get">
 	 							<div class="form-group">
 							        <input type="number" id="quant" value="${cart.quantity}"/>
@@ -56,7 +63,7 @@
 					<td><a href="Home" class="btn btn-warning">Continue Shopping</a></td>
 					<td></td>
 					<td>Total Rs. ${totalAmount}</td>
-					<td><a href="myCart-checkOut/${cart.user_id}" class="btn btn-success">Check Out</a></td>
+					<td><a href="myCart-Receipt" class="btn btn-success">proceed to payment</a></td>
 				</tr>
 
 			</table>

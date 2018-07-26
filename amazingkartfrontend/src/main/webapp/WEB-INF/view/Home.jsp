@@ -98,7 +98,15 @@ body{
 		<jsp:include page="Carousel.jsp"></jsp:include>
 		<jsp:include page="AllProducts.jsp"></jsp:include>
 	</c:if>
-
+	
+   <c:if test="${isUserAtPaymentpage=='true'}">
+		<jsp:include page="user/Receipt.jsp"></jsp:include>
+	
+	</c:if>
+	<c:if test="${isUserAtCheckedOut=='true'}">
+		<jsp:include page="user/checkOut.jsp"></jsp:include>
+	
+	</c:if>
 	
 	<jsp:include page="Footer.jsp"></jsp:include>
 

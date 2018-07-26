@@ -67,6 +67,7 @@ public class ProductTestCase {
 		boolean flag = productDAO.saveOrUpdate(product);
 		assertEquals("update Product TestCase",true,flag);
 	}
+	@Ignore
 	@Test
 	public void deleteProductTestCase()
 	{

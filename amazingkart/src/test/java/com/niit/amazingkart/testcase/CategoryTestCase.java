@@ -3,6 +3,7 @@ package com.niit.amazingkart.testcase;
 import static org.junit.Assert.*;
 
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -35,7 +36,7 @@ public class CategoryTestCase {
 		category = (Category) context.getBean("category");
 
 	}
-
+@Ignore
 	@Test
 	public void createCategoryTestCase() {
 		category.setId("CATG1");

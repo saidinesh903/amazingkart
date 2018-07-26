@@ -155,4 +155,10 @@ public class HomeController {
 		model.addAttribute("isUserAtHomePage", "false");
 		return "Home";
 	}
+	@RequestMapping("/myCart-Receipt")
+	public String PaymentPage(Model model) {
+		model.addAttribute("isUserAtPaymentpage", "true");
+		model.addAttribute("isUserAtHomePage", "false");
+		return "Home";
+}
 }

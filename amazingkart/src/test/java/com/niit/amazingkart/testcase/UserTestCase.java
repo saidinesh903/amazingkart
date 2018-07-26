@@ -49,7 +49,7 @@ public class UserTestCase {
 		assertEquals("createUserTestCase", true, flag);
 
 	}
-	
+	@Ignore
 	@Test
 	public void updateUserTestCase() {
 		user.setEmail("isaacdv84@gmail.com");

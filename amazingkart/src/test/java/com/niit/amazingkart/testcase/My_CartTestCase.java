@@ -3,6 +3,7 @@ package com.niit.amazingkart.testcase;
 import static org.junit.Assert.*;
 
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -42,7 +43,7 @@ public class My_CartTestCase {
 		my_Cart = (My_Cart)context.getBean("my_Cart");
 		
 	}
-	
+	@Ignore
 	@Test
 	public void createCartTestCase() {
 		my_Cart.setUser_id("IsaacDV");

@@ -67,8 +67,8 @@ public class CartController {
 		log.debug("Ending of myCart in CartController");
 		return "Home";
 	}
-	/*
-	@RequestMapping("/myCart-quant/{id}")
+	
+	/*@RequestMapping("/myCart-quant/{id}")
 	public String updateQuantity(@PathVariable("id") int id),@RequestParam("quant") String quant){
 		
 		
